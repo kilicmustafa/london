@@ -1,0 +1,83 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
+
+    <context:component-scan base-package="com.rheinlandprivatschule" />
+    <mvc:annotation-driven />
+    <mvc:resources mapping="/resources/**" location="/resources/" />
+    <task:annotation-driven />
+
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+        <property name="viewClass"
+                  value="org.springframework.web.servlet.view.JstlView" />
+        <property name="prefix" value="/jsp/" />
+        <property name="suffix" value=".jsp" />
+    </bean>
+
+    <bean id="multipartResolver"
+                class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+
+        <!-- setting maximum upload size -->
+        <property name="maxUploadSize" value="20000000" />
+
+    </bean>
+
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <bean class="com.rheinlandprivatschule.LoginHandler" />
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+    <bean id="studentDao" class="com.rheinlandprivatschule.repository.StudentDao"/>
+    <bean id="courseDao" class="com.rheinlandprivatschule.repository.CourseDao" />
+    <bean id="agentDao" class="com.rheinlandprivatschule.repository.AgentDao" />
+    <bean id="transactionDao" class="com.rheinlandprivatschule.repository.TransactionDao" />
+    <bean id="moduleDao" class="com.rheinlandprivatschule.repository.ModuleDao" />
+    <bean id="identityDao" class="com.rheinlandprivatschule.repository.IdentityDao" />
+    <bean id="systemUserDao" class="com.rheinlandprivatschule.repository.SystemUserDao" />
+    <bean id="bookDao" class="com.rheinlandprivatschule.repository.BookDao" />
+    <bean id="buchDao" class="com.rheinlandprivatschule.repository.BuchDao" />
+    <bean id="bildTraker" class="com.rheinlandprivatschule.repository.BildTraker" />
+    <bean id="systemUserBildTraker" class="com.rheinlandprivatschule.repository.SystemUserBildTraker" />
+    <bean id="placeDao" class="com.rheinlandprivatschule.repository.PlaceDao" />
+    <bean id="loginDao" class="com.rheinlandprivatschule.repository.LoginDao" />
+    <bean id="werbungDao" class="com.rheinlandprivatschule.repository.WerbungDao" />
+    <bean id="teacherLohnDao" class="com.rheinlandprivatschule.repository.TeacherLohnDao" />
+    <bean id="expCategoryDao" class="com.rheinlandprivatschule.repository.ExpCategoryDao" />
+    <bean id="expenditureDao" class="com.rheinlandprivatschule.repository.ExpenditureDao" />
+    <bean id="stundDao" class="com.rheinlandprivatschule.repository.StundDao" />
+    <bean id="lohnReportDao" class="com.rheinlandprivatschule.repository.LohnReportDao" />
+    <bean id="singleClassDao" class="com.rheinlandprivatschule.repository.SingleClassDao" />
+    <bean id="expenseDao" class="com.rheinlandprivatschule.repository.ExpenseDao" />
+    <bean id="studentComplaintDao" class="com.rheinlandprivatschule.repository.StudentComplaintDao" />
+    <bean id="complaintDao" class="com.rheinlandprivatschule.repository.ComplaintDao" />
+    <bean id="inventorDao" class="com.rheinlandprivatschule.repository.InventorDao" />
+    <bean id="vocabulDao" class="com.rheinlandprivatschule.repository.VocabulDao" />
+    <bean id="insuranceDao" class="com.rheinlandprivatschule.repository.InsuranceDao" />
+    <bean id="groupDao" class="com.rheinlandprivatschule.repository.GroupDao" />
+    <bean id="residenceDao" class="com.rheinlandprivatschule.repository.ResidenceDao" />
+    <bean id="residenceOwnerDao" class="com.rheinlandprivatschule.repository.ResidenceOwnerDao" />
+    <bean id="residentDao" class="com.rheinlandprivatschule.repository.ResidentDao" />
+    <bean id="residentEntryDao" class="com.rheinlandprivatschule.repository.ResidentEntryDao" />
+    <bean id="messeDao" class="com.rheinlandprivatschule.repository.MesseDao" />
+    <bean id="messeStudentDao" class="com.rheinlandprivatschule.repository.MesseStudentDao" />
+    <bean id="consultantDao" class="com.rheinlandprivatschule.repository.ConsultantDao" />
+    <bean id="consultantStudentDao" class="com.rheinlandprivatschule.repository.ConsultantStudentDao" />
+    <bean id="anwesenDao" class="com.rheinlandprivatschule.repository.AnwesenDao" />
+    <bean id="authService" class="com.rheinlandprivatschule.service.AuthService" />
+    <bean id="mahnungDao" class="com.rheinlandprivatschule.repository.MahnungDao" />
+    <bean id="xtraCostDao" class="com.rheinlandprivatschule.repository.XtraCostDao" />
+    <bean id="qrCodeDao" class="com.rheinlandprivatschule.repository.QRCodeDao" />
+
+</beans>

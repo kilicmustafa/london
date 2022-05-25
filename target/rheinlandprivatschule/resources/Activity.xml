@@ -1,0 +1,546 @@
+<ModuleManager>
+
+	<Module ModuleID="1" ModuleName="Mahnung">
+	
+		<Activity ActivityID="1.1" ActivityName="Mahnung liste">
+			
+			<Activity ActivityID="1.1.1" ActivityName="Mahnung">
+			</Activity>
+			
+			<Activity ActivityID="1.1.2" ActivityName="Vertrag">
+			</Activity>
+			
+			<Activity ActivityID="1.1.3" ActivityName="Geschickt">
+			</Activity>
+			
+			<Activity ActivityID="1.1.4" ActivityName="Unklar">
+			
+			<Activity ActivityID="1.1.4.1" ActivityName="Remove From Unklar">
+			</Activity>
+			
+			</Activity>
+			
+		</Activity>
+	
+		<Activity ActivityID="1.2" ActivityName="Block Mahnungliste">
+		</Activity>
+	
+		<Activity ActivityID="1.3" ActivityName="Versendete Mahnung">
+			
+			<Activity ActivityID="1.3.1" ActivityName="Inkasso">
+			</Activity>
+			
+		</Activity>
+	
+		<Activity ActivityID="1.4" ActivityName="Inkasso Mahnung liste">
+		</Activity>
+	
+		<Activity ActivityID="1.5" ActivityName="Unklar Mahnung liste">
+			
+			<Activity ActivityID="1.5.1" ActivityName="Klar">
+			</Activity>
+			
+			<Activity ActivityID="1.5.2" ActivityName="Vertrag">
+			</Activity>
+			
+			<Activity ActivityID="1.5.3" ActivityName="Neu Katogory">
+			</Activity>
+			
+			<Activity ActivityID="1.5.4" ActivityName="Aktualisierung Katogory">
+			</Activity>
+	
+		</Activity>
+	
+		<Activity ActivityID="1.6" ActivityName="Zwischenraum für Mahnung und Inkasso">
+		</Activity>
+	
+	</Module>
+	
+	<Module ModuleID="2" ModuleName="Schüler\in">
+	
+		<Activity ActivityID="2.1" ActivityName="Schülersuche">
+		</Activity>
+		
+		<Activity ActivityID="2.2" ActivityName="Schülersuche Mit Alle">
+		</Activity>
+		
+		<Activity ActivityID="2.3" ActivityName="Neue Schüler">
+		</Activity>
+		
+		<Activity ActivityID="2.4" ActivityName="On-Line-Schüler">
+			<Activity ActivityID="2.4.1" ActivityName="Löschen-Registrierung">
+			</Activity>
+		</Activity>
+		
+		<Activity ActivityID="2.5" ActivityName="Verhandenes K.Nr">
+		</Activity>
+		
+		<Activity ActivityID="2.6" ActivityName="Schüler Information und Kurs Einzelheit">
+		
+			<Activity ActivityID="2.6.1" ActivityName="Vertrag Unterladen">
+			</Activity>	
+			
+			<Activity ActivityID="2.6.2" ActivityName="Vertrag Hochladen">
+			</Activity>
+	
+			<Activity ActivityID="2.6.3" ActivityName="Schüler-Informationen">
+			</Activity>
+			
+			<Activity ActivityID="2.6.4" ActivityName="Kurs Registrierung">
+				<Activity ActivityID="2.6.4.1" ActivityName="Kurs Registrierung Manuell">
+				</Activity>
+			</Activity>
+			
+			<Activity ActivityID="2.6.5" ActivityName="Werbung">
+			</Activity>
+			
+			<Activity ActivityID="2.6.6" ActivityName="Neue Einzelunterricht">
+			</Activity>
+			
+			<Activity ActivityID="2.6.7" ActivityName="Bücher Verkaufen">
+			</Activity>	
+			
+			<Activity ActivityID="2.6.8" ActivityName="Aktuliesierung Einzelunterricht">
+
+			</Activity>
+			
+			<Activity ActivityID="2.6.9" ActivityName="Einzelunterricht Zahlen">
+			</Activity>
+			
+			<Activity ActivityID="2.6.10" ActivityName="Bemerkung Speisen">
+			</Activity>
+
+			<Activity ActivityID="2.6.11" ActivityName="Kurs Registrierung Einzelheit">
+	
+				<Activity ActivityID="2.6.11.1" ActivityName="Löschen-Kurs">
+				</Activity>	
+	
+				<Activity ActivityID="2.6.11.2" ActivityName="Änderung-Kurs">
+				</Activity>	
+	
+				<Activity ActivityID="2.6.11.3" ActivityName="Null-Gebühr">
+				</Activity>					
+	
+				<Activity ActivityID="2.6.11.4" ActivityName="Zertifikat">
+				</Activity>	
+	
+				<Activity ActivityID="2.6.11.5" ActivityName="Anmeldebestätigung">
+				</Activity>
+	
+				<Activity ActivityID="2.6.11.6" ActivityName="Blockieren">
+				</Activity>	
+	
+				<Activity ActivityID="2.6.11.7" ActivityName="Druck Mahnung">
+				</Activity>
+				
+				<Activity ActivityID="2.6.11.8" ActivityName="Druck Zertifikat">
+				</Activity>
+	
+				<Activity ActivityID="2.6.11.9" ActivityName="Zahlen">
+				</Activity>
+				
+				<Activity ActivityID="2.6.11.10" ActivityName="Zurück Zahlen">
+				</Activity>
+	
+			</Activity>	
+			
+			<Activity ActivityID="2.6.12" ActivityName="Rechnung Bericht">
+			</Activity>
+			<Activity ActivityID="2.6.13" ActivityName="Kurs Abmeldung">
+			</Activity>
+			<Activity ActivityID="2.6.14" ActivityName="Allgemein AB">
+			</Activity>
+	
+		</Activity>	
+		
+		<Activity ActivityID="2.7" ActivityName="Agenturen">
+		</Activity>
+		<Activity ActivityID="2.8" ActivityName="FreigabeListe">
+		</Activity>
+	
+	</Module>
+	
+	<Module ModuleID="3" ModuleName="Rechnung Bericht">
+	
+		<Activity ActivityID="3.1" ActivityName="Ansicht Bericht">
+	
+			<Activity ActivityID="3.1.1" ActivityName="Druck Rechnung Bericht">
+			</Activity>
+	
+		</Activity>
+	
+		<Activity ActivityID="3.2" ActivityName="Offene Einzelunterricht">
+		</Activity>
+		
+		<Activity ActivityID="3.3" ActivityName="Neue angemeldet Schüler/in">
+		</Activity>
+		
+		<Activity ActivityID="3.4" ActivityName="Löhne Ausrechnen">
+		</Activity>
+	
+	</Module>
+	
+	<Module ModuleID="4" ModuleName="Kurse">
+	
+		<Activity ActivityID="4.1" ActivityName="Neue Kurse">
+		</Activity>
+		
+		<Activity ActivityID="4.2" ActivityName="Aktive und Zukünftige Kurse">
+	
+			<Activity ActivityID="4.2.1" ActivityName="Alle Kurse">
+			</Activity>
+	
+			<Activity ActivityID="4.2.2" ActivityName="Kursteilnehmer Liste">
+			
+				<Activity ActivityID="4.2.2.1" ActivityName="Anwesenheitliste Speisen">
+				</Activity>
+				
+				<Activity ActivityID="4.2.2.2" ActivityName="Kursinformationen">
+				</Activity>
+				
+				<Activity ActivityID="4.2.2.3" ActivityName="Kurs Bericht">
+				</Activity>
+				
+				<Activity ActivityID="4.2.2.4" ActivityName="Kurs Löschen">
+				</Activity>
+				
+				<Activity ActivityID="4.2.2.5" ActivityName="Kurs Anwesenheitliste">
+					
+					<Activity ActivityID="4.2.2.5.1" ActivityName="Anwesenheit">
+					</Activity>
+					
+					<Activity ActivityID="4.2.2.5.2" ActivityName="Kurs Anwesenheitliste Drucken">
+					</Activity>
+					
+				</Activity>
+			
+			</Activity>
+	
+		</Activity>
+	
+	</Module>
+	
+	<Module ModuleID="5" ModuleName="Stundenplan">
+	
+		<Activity ActivityID="5.1" ActivityName="Stundenplan">
+			<Activity ActivityID="5.1.1" ActivityName="Arbeiten mit Stundenplan">
+			</Activity>
+		</Activity>
+		
+		<Activity ActivityID="5.2" ActivityName="Stundenlohn">
+		</Activity>
+		
+		<Activity ActivityID="5.3" ActivityName="StundenBemerkung">
+		</Activity>
+		
+		<Activity ActivityID="5.4" ActivityName="StundenAnmeldung">
+		</Activity>
+		
+	</Module>	
+	
+	<Module ModuleID="6" ModuleName="Schulen">
+	
+		<Activity ActivityID="6.1" ActivityName="Neue Schule">
+		</Activity>
+		
+		<Activity ActivityID="6.2" ActivityName="Schulen Liste">
+			<Activity ActivityID="6.2.1" ActivityName="Aktuliesierung Schule">
+			</Activity>
+		</Activity>
+		
+	</Module>
+	
+	<Module ModuleID="7" ModuleName="Benutzer">
+	
+		<Activity ActivityID="7.1" ActivityName="Allgemeine Kategorie Liste">
+
+			<Activity ActivityID="7.1.1" ActivityName="Neue Allgemeine Kategorie">
+			</Activity>
+			<Activity ActivityID="7.1.2" ActivityName="Aktuliesierung Allgemeine Kategorie">
+			</Activity>
+			<Activity ActivityID="7.1.3" ActivityName="Allgemeine Kategorie Benutzer Liste">
+			</Activity>
+			<Activity ActivityID="7.1.4" ActivityName="Neue Allgemeine Benutzer">
+			</Activity>
+			<Activity ActivityID="7.1.5" ActivityName="Aktuliesierung Allgemeine Benutzer">
+			</Activity>
+			<Activity ActivityID="7.1.6" ActivityName="Aktuliesierung Allgemeine Benutzer Bemerkung">
+			</Activity>
+			<Activity ActivityID="7.1.7" ActivityName="Aktuliesierung Allgemeine Benutzer StundenLohn">
+			</Activity>
+			<Activity ActivityID="7.1.8" ActivityName="Allgemeine Benutzer Werbung">
+			</Activity>
+		
+		</Activity>
+		
+		<Activity ActivityID="7.2" ActivityName="Privat Kategorie Liste">
+		
+			<Activity ActivityID="7.2.1" ActivityName="Neue Privat Kategorie">
+			</Activity>
+			<Activity ActivityID="7.2.2" ActivityName="Aktuliesierung Privat Kategorie">
+			</Activity>
+			<Activity ActivityID="7.2.3" ActivityName="Privat Kategorie Benutzer Liste">
+			</Activity>
+			<Activity ActivityID="7.2.4" ActivityName="Neue Privat Benutzer">
+			</Activity>
+			<Activity ActivityID="7.2.5" ActivityName="Aktuliesierung Privat Benutzer">
+			</Activity>
+			<Activity ActivityID="7.2.6" ActivityName="Aktuliesierung Privat Benutzer Bemerkung">
+			</Activity>
+			<Activity ActivityID="7.2.7" ActivityName="Aktuliesierung Privat Benutzer StundenLohn">
+			</Activity>
+			<Activity ActivityID="7.2.8" ActivityName="Privat Benutzer Werbung">
+			</Activity>
+			<Activity ActivityID="7.2.9" ActivityName="Aktuliesierung Lehrer Handbuch">
+			</Activity>
+			<Activity ActivityID="7.2.10" ActivityName="Aktuliesierung Mitarbeiter Handbuch">
+			</Activity>
+		
+		</Activity>
+		
+		<Activity ActivityID="7.3" ActivityName="Email Schicken">
+		</Activity>
+		
+		<Activity ActivityID="7.4" ActivityName="Bennutzersuchen">
+		</Activity>
+		
+	</Module>		
+	
+	<Module ModuleID="8" ModuleName="Ausgabe">
+	
+		<Activity ActivityID="8.1" ActivityName="Ausgabe Kategorie Liste">
+
+			<Activity ActivityID="8.1.1" ActivityName="Neue Ausgabe Kategorie">
+			</Activity>
+			<Activity ActivityID="8.1.2" ActivityName="Aktuliesierung Ausgabe Kategorie">
+			</Activity>
+		
+		</Activity>
+		
+		<Activity ActivityID="8.2" ActivityName="Ausgabe Suchen">
+		
+			<Activity ActivityID="8.2.1" ActivityName="Neue Ausgabe">
+			</Activity>
+			<Activity ActivityID="8.2.2" ActivityName="Aktuliesierung Ausgabe">
+			</Activity>
+			<Activity ActivityID="8.2.3" ActivityName="Druck Ausgaben">
+			</Activity>
+					
+		</Activity>
+		
+	</Module>
+	
+	<Module ModuleID="9" ModuleName="Bücher Handlung">
+	
+		<Activity ActivityID="9.1" ActivityName="Neues Buch Hinzufügen">
+
+			<Activity ActivityID="9.1.1" ActivityName="Aktuliesierung Buch">
+			</Activity>
+		
+		</Activity>
+		
+		<Activity ActivityID="9.2" ActivityName="Bücher Eingang">
+		</Activity>
+		
+		<Activity ActivityID="9.3" ActivityName="Bücher Freigabe">
+		</Activity>
+		
+		<Activity ActivityID="9.4" ActivityName="Bücher Suchen">
+	
+			<Activity ActivityID="9.4.1" ActivityName="Bücher in der Stadt">
+			</Activity>
+			<Activity ActivityID="9.4.2" ActivityName="Bücher im Stock">
+			</Activity>
+			<Activity ActivityID="9.4.3" ActivityName="Buch Löschen">
+			</Activity>
+	
+		</Activity>
+		
+		<Activity ActivityID="9.5" ActivityName="Bücher zum verkauf">
+		</Activity>
+		
+	</Module>
+	
+	<Module ModuleID="10" ModuleName="Vocabul Trainer">
+	
+		<Activity ActivityID="10.1" ActivityName="Neue Sprache">
+		</Activity>
+		
+		<Activity ActivityID="10.2" ActivityName="Aktuliesierung Sprache">
+		</Activity>
+		
+		<Activity ActivityID="10.3" ActivityName="Lektion Liste">
+		
+			<Activity ActivityID="10.3.1" ActivityName="Neue Lektion">
+			</Activity>
+			<Activity ActivityID="10.3.2" ActivityName="Aktuliesierung Lektion">
+			</Activity>
+			<Activity ActivityID="10.3.3" ActivityName="Arbeiten mit der Lektion">
+			</Activity>
+		
+		</Activity>
+		
+	</Module>	
+	
+	<Module ModuleID="11" ModuleName="Werbug Und Krankenversicherung">
+	
+		<Activity ActivityID="11.1" ActivityName="Werbung Liste">
+		
+			<Activity ActivityID="11.1.1" ActivityName="Neue Werbung">
+			</Activity>
+			<Activity ActivityID="11.1.2" ActivityName="Aktuliesierung Werbung">
+			</Activity>
+			<Activity ActivityID="11.1.3" ActivityName="Werbung Schüler/in Liste">
+			</Activity>
+		
+		</Activity>
+		
+		<Activity ActivityID="11.2" ActivityName="Krankenversicherung Liste">
+		
+			<Activity ActivityID="11.2.1" ActivityName="Neue Krankenversicherung">
+			</Activity>
+			<Activity ActivityID="11.2.2" ActivityName="Aktuliesierung Krankenversicherung">
+			</Activity>
+			<Activity ActivityID="11.2.3" ActivityName="Schüler/in Krankenversicherung">
+			</Activity>
+		
+		</Activity>
+		
+	</Module>	
+	
+	<Module ModuleID="12" ModuleName="Dateiverwaltung">
+	
+		<Activity ActivityID="12.1" ActivityName="Dateiverwaltung Benutzen">
+		</Activity>
+		
+	</Module>
+	
+	<Module ModuleID="13" ModuleName="Bilderverwaltung">
+	
+		<Activity ActivityID="13.1" ActivityName="Bilderverwaltung Benutzen">
+		</Activity>
+		
+	</Module>
+	
+	<Module ModuleID="14" ModuleName="Bilanz">
+	
+		<Activity ActivityID="14.1" ActivityName="Bilanz Benutzen">
+		</Activity>
+		
+	</Module>
+	
+	<Module ModuleID="15" ModuleName="DSH Termin">
+	
+		<Activity ActivityID="15.1" ActivityName="Aktuliesierung DSH Termin">
+		</Activity>
+		
+	</Module>																	
+	
+	<Module ModuleID="16" ModuleName="Wohnungverwaltung">
+	
+		<Activity ActivityID="16.1" ActivityName="Neuer Vermieter">
+		</Activity>
+		<Activity ActivityID="16.2" ActivityName="Aktuliesierung Vermieter">
+		</Activity>
+		<Activity ActivityID="16.3" ActivityName="Vermieterliste">
+		</Activity>
+		
+		<Activity ActivityID="16.4" ActivityName="Neue Wohnung">
+		</Activity>
+		<Activity ActivityID="16.5" ActivityName="Aktuliesierung Wohnung">
+		</Activity>
+		<Activity ActivityID="16.6" ActivityName="Wohnungliste">
+		</Activity>
+		
+		<Activity ActivityID="16.7" ActivityName="Neuer Mieter">
+		</Activity>
+		<Activity ActivityID="16.8" ActivityName="Aktuliesierung Mieter">
+		</Activity>
+		<Activity ActivityID="16.9" ActivityName="Mieterliste">
+		</Activity>
+		
+		<Activity ActivityID="16.10" ActivityName="Neuer Mietvertrag">
+		</Activity>
+		<Activity ActivityID="16.11" ActivityName="Aktuliesierung Mietvertrag">
+		</Activity>
+		<Activity ActivityID="16.12" ActivityName="Mietvertragliste">
+		</Activity>
+	</Module>																	
+	<Module ModuleID="17" ModuleName="Messe">
+	
+		<Activity ActivityID="17.1" ActivityName="Messe Liste">		
+			<Activity ActivityID="17.1.1" ActivityName="Neue Messe">
+			</Activity>
+			<Activity ActivityID="17.1.2" ActivityName="Aktuliesierung Messe">
+			</Activity>		
+			<Activity ActivityID="17.2" ActivityName="Messe Studente Liste">		
+			</Activity>		
+			<Activity ActivityID="17.2.1" ActivityName="Neue Messe Student">
+			</Activity>
+			<Activity ActivityID="17.2.2" ActivityName="Aktuliesierung Messe Student">
+			</Activity>		
+		</Activity>
+		
+	</Module>
+		<Module ModuleID="18" ModuleName="Mitarbeiter Anmeldung">
+	
+		<Activity ActivityID="18.1" ActivityName="Mitarbeiter Liste">		
+			<Activity ActivityID="18.1.1" ActivityName="Neue Mitarbeiter">
+			</Activity>
+			<Activity ActivityID="18.1.2" ActivityName="Aktuliesierung Mitarbeiter">
+			</Activity>		
+		</Activity>		
+
+	</Module>
+		<Module ModuleID="19" ModuleName="Beschwerden">
+	
+		<Activity ActivityID="19.1" ActivityName="Beschwerden Liste">		
+			<Activity ActivityID="19.1.1" ActivityName="Neue Beschwerden">
+			</Activity>
+			<Activity ActivityID="19.1.2" ActivityName="Aktuliesierung Beschwerden">
+			</Activity>	
+			<Activity ActivityID="19.1.3" ActivityName="Löschen Beschwerden">
+			</Activity>					
+		</Activity>		
+
+	</Module>
+	<Module ModuleID="20" ModuleName="Groupen">
+	
+		<Activity ActivityID="20.1" ActivityName="Group Liste">
+		
+			<Activity ActivityID="20.1.1" ActivityName="Neue Group">
+			</Activity>
+			<Activity ActivityID="20.1.2" ActivityName="Aktuliesierung Group">
+			</Activity>
+			<Activity ActivityID="20.1.3" ActivityName="Group Schüler/in Liste">
+			</Activity>
+		
+		</Activity>
+		
+	</Module>
+	
+		<Module ModuleID="21" ModuleName="Rechnung">
+	
+		<Activity ActivityID="21.1" ActivityName="Neue Rechnung">
+		</Activity>
+		
+		<Activity ActivityID="21.2" ActivityName="Rechnung Liste">
+			<Activity ActivityID="21.2.1" ActivityName="Aktuliesierung Rechnung">
+			</Activity>
+		</Activity>
+		
+	</Module>
+	
+		<Module ModuleID="22" ModuleName="Mitarbeiter Rechnungen">
+	
+		<Activity ActivityID="22.1" ActivityName="Neue Rechnung">
+		</Activity>
+		
+		<Activity ActivityID="22.2" ActivityName="Rechnung Liste">
+			<Activity ActivityID="22.2.1" ActivityName="Aktuliesierung Rechnung">
+			</Activity>
+		</Activity>
+		
+	</Module>	
+	
+</ModuleManager>
